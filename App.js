@@ -2,13 +2,33 @@ import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import BrainButton from './components/button'
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <BrainButton showOnButton="test"></BrainButton>
-    </View>
-  );
+export default class App extends React.Component{
+  constructor(){
+    super()
+    this.state = {
+      infoAboutArea: []
+    }
+    this.showInfoAboutArea = this.showInfoAboutArea.bind(this)
+  }
+  showInfoAboutArea(info){
+    this.setState({
+      infoAboutArea:[info]
+    })
+  }
+  render(){
+    return (
+      <View style={styles.container}>
+        <Text>The text below this changes!</Text>
+    <Text>{this.state.infoAboutArea}</Text>
+        <BrainButton 
+        showOnButton="The Brain"
+        info = "The brain tells your body what to do"
+        showInfoAboutArea = {this.showInfoAboutArea}
+        ></BrainButton>
+      </View>
+    );
+  }
+  
 }
 
 const styles = StyleSheet.create({
