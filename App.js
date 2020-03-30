@@ -25,6 +25,11 @@ export default class App extends React.Component{
         info = "The brain tells your body what to do"
         showInfoAboutArea = {this.showInfoAboutArea}
         ></BrainButton>
+        <BrainButton 
+        showOnButton="The frontal lobe"
+        info = "The frontal lobe is .... "
+        showInfoAboutArea = {this.showInfoAboutArea}
+        ></BrainButton>
       </View>
     );
   }
