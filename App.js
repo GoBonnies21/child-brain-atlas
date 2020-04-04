@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, Button } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import BrainButton from "./components/button";
 
 export default class App extends React.Component {
@@ -18,7 +18,6 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>The text below this changes!</Text>
         <Text>{this.state.infoAboutArea}</Text>
         <BrainButton
           showOnButton="The Brain"
@@ -26,8 +25,38 @@ export default class App extends React.Component {
           showInfoAboutArea={this.showInfoAboutArea}
         ></BrainButton>
         <BrainButton
-          showOnButton="The frontal lobe"
-          info="The frontal lobe is .... "
+          showOnButton="The Frontal lobe"
+          info='The frontal lobe is the "thinking" part of the brain. It gives us our emotions and lets us solve problems '
+          showInfoAboutArea={this.showInfoAboutArea}
+        ></BrainButton>
+        <BrainButton
+          showOnButton="The Parietal Lobe"
+          info="The parietal lobe takes our different senses and makes connections between them. This lets us do things like catch a baseball or tell what room of the house our dog is barking in"
+          showInfoAboutArea={this.showInfoAboutArea}
+        ></BrainButton>
+        <BrainButton
+          showOnButton="The Occipital Lobe"
+          info="The occipital lobe helps us see. Can you believe all that information travels from your eyes to the back of your head?"
+          showInfoAboutArea={this.showInfoAboutArea}
+        ></BrainButton>
+        <BrainButton
+          showOnButton="The Temporal Lobe"
+          info="The temporal lobe allows us to hear sounds, understand words and remember pictures and faces."
+          showInfoAboutArea={this.showInfoAboutArea}
+        ></BrainButton>
+        <BrainButton
+          showOnButton="The Cerebellum"
+          info="The cerebellum is responsible for keeping us balance. It lets us dance, play sports or carry glasses full of water or juice."
+          showInfoAboutArea={this.showInfoAboutArea}
+        ></BrainButton>
+        <BrainButton
+          showOnButton="The Brain Stem"
+          info="The brain stem keeps our heart pumping and tells our lungs to breath."
+          showInfoAboutArea={this.showInfoAboutArea}
+        ></BrainButton>
+        <BrainButton
+          showOnButton="The Spinal Cord"
+          info="The spinal cord takes all of the instructions from our brain and brings them to the rest of our body. It also takes all the things we feel with our skin and tells our brain about it."
           showInfoAboutArea={this.showInfoAboutArea}
         ></BrainButton>
       </View>
