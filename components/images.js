@@ -9,7 +9,7 @@ return (
     <View>
 <Image
  source ={require('../assets/OuterBrain.png')}
- style={{width: 40, height: 40}}
+ style={{width: 500, height: 300}}
  />
  </View>
 )
