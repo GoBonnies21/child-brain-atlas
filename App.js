@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import BrainButton from "./components/button";
+import BrainImage from "./components/images"
 
 export default class App extends React.Component {
   constructor() {
@@ -51,7 +52,7 @@ export default class App extends React.Component {
         ></BrainButton>
         <BrainButton
           showOnButton="The Brain Stem"
-          info="The brain stem keeps our heart pumping and tells our lungs to breath."
+          info="The brain stem keeps our heart pumping and tells our lungs to breathe."
           showInfoAboutArea={this.showInfoAboutArea}
         ></BrainButton>
         <BrainButton
@@ -59,6 +60,8 @@ export default class App extends React.Component {
           info="The spinal cord takes all of the instructions from our brain and brings them to the rest of our body. It also takes all the things we feel with our skin and tells our brain about it."
           showInfoAboutArea={this.showInfoAboutArea}
         ></BrainButton>
+        <BrainImage>
+        </BrainImage>
       </View>
     );
   }

@@ -12,6 +12,7 @@ export default class BrainButton extends React.Component {
     render(){
         return (
             <Button 
+            color= "black"
             title={this.props.showOnButton}
             onPress = {this.showInfoHandler}
             ></Button>
