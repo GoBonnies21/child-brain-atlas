@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import React from "react";
+import { Button } from "react-native";
 
 export default class BrainButton extends React.Component {
     constructor(props){
@@ -7,7 +7,7 @@ export default class BrainButton extends React.Component {
         this.showInfoHandler= this.showInfoHandler.bind(this);
     }
     showInfoHandler(){
-        this.props.showInfoAboutArea(this.props.info)
+        this.props.showInfoAboutArea(this.props.info);
     }
     render(){
         return (
@@ -16,6 +16,6 @@ export default class BrainButton extends React.Component {
             title={this.props.showOnButton}
             onPress = {this.showInfoHandler}
             ></Button>
-        )
+        );
     }
 }

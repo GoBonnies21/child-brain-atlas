@@ -1,8 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import BrainButton from "./components/button";
-import BrainImage from "./components/images"
-
+import BrainImage from "./components/images";
 export default class App extends React.Component {
   constructor() {
     super();
