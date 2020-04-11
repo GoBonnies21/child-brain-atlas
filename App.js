@@ -1,7 +1,7 @@
 /* eslint-disable func-style */
 import "react-native-gesture-handler";
 import React from "react";
-import { StyleSheet, View, Button } from "react-native";
+import { View, Button } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import BrainExterior from "./brainExterior";
@@ -48,12 +48,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
