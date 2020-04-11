@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import BrainButton from "./components/button";
-import BrainImage from "./components/images";
+import ExteriorBrainImage from "./components/OuterBrainImage";
 export default class BrainExterior extends React.Component {
     constructor() {
         super();
@@ -59,8 +59,8 @@ export default class BrainExterior extends React.Component {
               info="The spinal cord takes all of the instructions from our brain and brings them to the rest of our body. It also takes all the things we feel with our skin and tells our brain about it."
               showInfoAboutArea={this.showInfoAboutArea}
             ></BrainButton>
-            <BrainImage>
-            </BrainImage>
+            <ExteriorBrainImage>
+            </ExteriorBrainImage>
           </View>
         );
       }
