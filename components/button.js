@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import { Button } from "react-native";
+import {TouchableOpacity, View, StyleSheet, Text} from "react-native";
 
 export default class BrainButton extends React.Component {
     constructor(props){
@@ -12,11 +12,19 @@ export default class BrainButton extends React.Component {
     }
     render(){
         return (
-            <Button 
-            color= "black"
-            title={this.props.showOnButton}
-            onPress = {this.showInfoHandler}
-            ></Button>
-        );
+            <View style ={styles.container}>
+            <TouchableOpacity onPress={this.showInfoHandler} style={styles.button}>
+            <Text style={styles.buttonText}>{this.props.showOnButton}</Text>
+            </TouchableOpacity>
+            </View>
+        )
+    };
+       
     }
-}
+    const styles = StyleSheet.create({
+        container: {
+          flex: 1,
+          backgroundColor: "pink",
+          alignItems: "center",
+          justifyContent: "center"
+        }});
