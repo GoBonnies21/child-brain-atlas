@@ -1,7 +1,11 @@
 /* eslint-disable func-style */
 import "react-native-gesture-handler";
 import React from "react";
+<<<<<<< HEAD
 import { StyleSheet, View, Button, Text } from "react-native";
+=======
+import { View, Button } from "react-native";
+>>>>>>> Development
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import BrainExterior from "./brainExterior";
@@ -91,6 +95,7 @@ export default class App extends React.Component {
     );
   }
 }
+<<<<<<< HEAD
 
 const styles = StyleSheet.create({
   NavigationButtons: {
@@ -105,3 +110,5 @@ const styles = StyleSheet.create({
     alignItems: "center"
   }
 });
+=======
+>>>>>>> Development

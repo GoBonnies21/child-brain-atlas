@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import BrainButton from "./components/button";
-import BrainImage from "./components/images";
+import InteriorBrainImage from "./components/InnerBrainImage";
 export default class BrainInterior extends React.Component {
   constructor() {
     super();
@@ -54,8 +54,8 @@ export default class BrainInterior extends React.Component {
           info="The pituitary gland releases hormones into your bloodstream, which go on to do more cool things!"
           showInfoAboutArea={this.showInfoAboutArea}
         ></BrainButton>
-        <BrainImage>
-        </BrainImage>
+        <InteriorBrainImage>
+        </InteriorBrainImage>
       </View>
     );
   }
