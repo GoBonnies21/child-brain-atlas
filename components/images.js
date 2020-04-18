@@ -16,6 +16,10 @@ export default class BrainImage extends React.Component {
           source={require("../assets/brain interior.jpg")}
           style={{ width: 500, height: 300 }}
         />
+      <Image 
+      source={require("../assets/LandingPageBrain.jpg")}
+      style={{width: 500, height: 300}}
+      />
       </View>
     );
   }

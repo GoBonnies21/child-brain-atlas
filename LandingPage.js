@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import BrainButton from "./components/button";
+import LandingImage from "./components/LandingPageImage";
 export default class LandingPage extends React.Component {
     constructor() {
         super();
@@ -17,30 +17,22 @@ export default class LandingPage extends React.Component {
       render() {
         return (
           <View style={styles.container}>
-            <Text>{this.state.infoAboutArea}</Text>
-            <BrainButton
-              showOnButton="The Neuron"
-              info="Welcome to the neuron"
-              showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
-            <BrainButton
-            showOnButton="The Exterior of the Brain"
-            info="Welcome to the exterior of the brain"
-            showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
-            <BrainButton
-            showOnButton="The Interior of the Brain"
-            info="Welcome to the interior of the brain"
-            showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            <View style={styles.image}>
+            <LandingImage></LandingImage>
             </View>
-        )}} 
+            </View>
+        
+            
+        )}}
 
         const styles = StyleSheet.create({
-            container: {
-              flex: 1,
-              backgroundColor: "#fff",
-              alignItems: "center",
-              justifyContent: "center"
-            }
-          });
+           container: {
+            backgroundColor: "white" 
+          },
+          image: {
+            flex: "center",
+            justifyContent: "center"
+          }
+        });
+      
+        
