@@ -32,18 +32,6 @@ function LandingPageFx({ navigation }) {
   );
 }
 
-// function brainExteriorFx({ navigation }) {
-//   return (
-//     <View>
-//       <BrainExterior></BrainExterior>
-//       <Button
-//         title="Flip the Brain"
-//         // eslint-disable-next-line react/prop-types
-//         onPress={() => navigation.navigate("interior")}
-//       />
-//     </View>
-//   );
-// }
 function brainExteriorFx() {
   return <BrainExterior></BrainExterior>
 };
