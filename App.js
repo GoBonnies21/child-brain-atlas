@@ -7,6 +7,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import BrainExterior from "./brainExterior";
 import BrainInterior from "./brainInterior";
 import LandingPage from "./LandingPage";
+import NeuronPage from "./neuronPage";
 
 // eslint-disable-next-line react/prop-types
 function LandingPageFx({ navigation }) {
@@ -53,9 +54,9 @@ function brainInteriorFx() {
   return <BrainInterior></BrainInterior>;
 };
 
-// function theNeuronFx() {
-//   return ""
-// }
+function theNeuronFx() {
+  return <NeuronPage></NeuronPage>
+};
 
 const Stack = createStackNavigator();
 export default class App extends React.Component {
@@ -81,11 +82,11 @@ export default class App extends React.Component {
             component={brainInteriorFx}
             options={{ title: "The Interior of the Brain" }}
           />
-          {/* <Stack.Screen
+          <Stack.Screen
           name="neuron"
-          component={""}
+          component={theNeuronFx}
           options={{ title: "The Neuron"}}
-          /> */}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     );
