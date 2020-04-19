@@ -10,7 +10,7 @@ export default class InteriorBrainImage extends React.Component {
       <View>
         <Image
           source={require("../assets/InnerBrainBW.png")}
-          style={{ width: 500, height: 450 }}
+          style={{ width: 1100, height: 1015 }}
         />
       </View>
     );
