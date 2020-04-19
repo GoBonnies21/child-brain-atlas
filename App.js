@@ -13,7 +13,7 @@ function LandingPageFx({ navigation }) {
   return (
     <View>
   <View style= {styles.image}>
-    <LandingPage></LandingPage> 
+    <LandingPage></LandingPage>
     </View>
     <View style= {styles.NavigationButtons}>
       <Text>
@@ -27,13 +27,13 @@ function LandingPageFx({ navigation }) {
     <Text>
       The exterior of the brain has lots of cool functions that help you do day to day activities!
     </Text>
-    <Button 
+    <Button
     title="Go to the Exterior of the Brain!"
     // eslint-disable-next-line react/prop-types
     onPress={() => navigation.navigate("exterior")}
     ></Button>
     <Text>
-      The interior of the brain helps your body out and makes sure that you can do everything you love! 
+      The interior of the brain helps your body out and makes sure that you can do everything you love!
     </Text>
     <Button
     title="Go to the Interior of the Brain!"
@@ -81,7 +81,7 @@ export default class App extends React.Component {
             component={brainInteriorFx}
             options={{ title: "The Interior of the Brain" }}
           />
-          {/* <Stack.Screen 
+          {/* <Stack.Screen
           name="neuron"
           component={""}
           options={{ title: "The Neuron"}}
