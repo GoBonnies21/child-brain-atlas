@@ -10,7 +10,7 @@ export default class OuterBrainImage extends React.Component {
       <View>
         <Image
           source={require("../assets/BrainExterior.jpg")}
-          style={{ width: 600, height: 450 }}
+          style={{ width: 900, height: 725 }}
         />
       </View>
     );
