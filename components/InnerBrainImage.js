@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Image } from "react-native";
+import styles from "./styles";
 
 export default class InteriorBrainImage extends React.Component {
   constructor() {
@@ -10,7 +11,7 @@ export default class InteriorBrainImage extends React.Component {
       <View>
         <Image
           source={require("../assets/InnerBrainBW.png")}
-          style={{ width: 1100, height: 1015 }}
+          style={styles.InnerBrainImage}
         />
       </View>
     );

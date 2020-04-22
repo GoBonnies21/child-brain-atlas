@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Image } from "react-native";
-
+import styles from "./styles";
 export default class NeuronImage extends React.Component {
   constructor() {
     super();
@@ -8,10 +8,10 @@ export default class NeuronImage extends React.Component {
   render() {
     return (
       <View>
-      <Image 
-      source={require("../assets/NeuronImage.jpg")}
-      style={{width: 775, height: 735}}
-      />
+        <Image
+          source={require("../assets/NeuronImage.jpg")}
+          style={styles.NeuronImage}
+        />
       </View>
     );
   }
