@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, Button } from "react-native";
+import { Text, View, Button } from "react-native";
 import LandingImage from "./LandingPageImage";
 import styles from "./styles";
 // eslint-disable-next-line react/prop-types
@@ -40,6 +40,11 @@ export default function LandingPageFx({ navigation }) {
           title="Go to the Interior of the Brain!"
           // eslint-disable-next-line react/prop-types
           onPress={() => navigation.navigate("interior")}
+        ></Button>
+        <Button
+          title="Go to the Heart"
+          // eslint-disable-next-line react/prop-types
+          onPress={() => navigation.navigate("heart")}
         ></Button>
       </View>
     </View>
