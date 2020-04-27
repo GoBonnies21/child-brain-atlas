@@ -7,9 +7,13 @@ import BrainExterior from "./components/brainExterior";
 import BrainInterior from "./components/brainInterior";
 import LandingPageFx from "./components/LandingPage";
 import NeuronPage from "./components/neuronPage";
+import Heart from "./components/heart";
 
 function brainExteriorFx() {
   return <BrainExterior></BrainExterior>;
+}
+function heartFx(){
+  return <Heart></Heart>;
 }
 
 function brainInteriorFx() {
@@ -32,7 +36,7 @@ export default class App extends React.Component {
           <Stack.Screen
             name="Landing Page"
             component={LandingPageFx}
-            options={{ title: "Welcome to the Brain" }}
+            options={{ title: "Welcome to the Body" }}
           />
           <Stack.Screen
             name="exterior"
@@ -48,6 +52,11 @@ export default class App extends React.Component {
             name="neuron"
             component={theNeuronFx}
             options={{ title: "The Neuron" }}
+          />
+          <Stack.Screen
+            name="heart"
+            component={heartFx}
+            options={{ title: "The Heart" }}
           />
         </Stack.Navigator>
       </NavigationContainer>
