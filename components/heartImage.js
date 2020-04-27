@@ -11,7 +11,7 @@ export default class HeartImage extends React.Component {
       <View>
         <Image
           source={require("../assets/HeartImage.jpeg")}
-          style={styles.InnerBrainImage}
+          style={styles.HeartImage}
         />
       </View>
     );

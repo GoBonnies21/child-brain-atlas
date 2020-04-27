@@ -1,72 +1,106 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 import BrainButton from "./button";
 import HeartImage from "./HeartImage";
 import styles from "./styles";
 export default class Heart extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-          infoAboutArea: []
-        };
-        this.showInfoAboutArea = this.showInfoAboutArea.bind(this);
-      }
-      showInfoAboutArea(info) {
-        this.setState({
-          infoAboutArea: [info]
-        });
-      }
-      render() {
-        return (
-          <View style={styles.BrainExteriorContainer}>
-            <Text>{this.state.infoAboutArea}</Text>
-            <View style={styles.backgroundImage}>
-            <HeartImage></HeartImage>
-            </View>
-            <View style={styles.Brain}>
-            <BrainButton
-              showOnButton="The Brain"
-              info="The brain tells your body what to do"
-              showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
-            </View>
-            <View style={styles.FrontalLobe}>
-            <BrainButton
-              showOnButton="The Frontal lobe"
-              info='The frontal lobe is the "thinking" part of the brain. It gives us our emotions and lets us solve problems '
-              showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
-            </View>
-            <View style={styles.ParietalLobe}>
-            <BrainButton
-              showOnButton="The Parietal Lobe"
-              info="The parietal lobe takes our different senses and makes connections between them. This lets us do things like catch a baseball or tell what room of the house our dog is barking in"
-              showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
-            </View>
-            <View style={styles.OccipitalLobe}>
-            <BrainButton
-              showOnButton="The Occipital Lobe"
-              info="The occipital lobe helps us see. Can you believe all that information travels from your eyes to the back of your head?"
-              showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
-            </View>
-            <View style={styles.TemporalLobe}>
-            <BrainButton
-              showOnButton="The Temporal Lobe"
-              info="The temporal lobe allows us to hear sounds, understand words and remember pictures and faces."
-              showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
-            </View>
-            <View style={styles.Cerebellum}>
-            <BrainButton
-              showOnButton="The Cerebellum"
-              info="The cerebellum is responsible for keeping us balance. It lets us dance, play sports or carry glasses full of water or juice."
-              showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
-            </View>
-          </View>
-        );
-      }
-    }
-    
+  constructor() {
+    super();
+    this.state = {
+      infoAboutArea: [],
+    };
+    this.showInfoAboutArea = this.showInfoAboutArea.bind(this);
+  }
+  showInfoAboutArea(info) {
+    this.setState({
+      infoAboutArea: [info],
+    });
+  }
+  render() {
+    return (
+      <View style={styles.HeartContainer}>
+        <View style={styles.message}>
+          <Text>{this.state.infoAboutArea}</Text>
+        </View>
+        <HeartImage></HeartImage>
+        <View style={styles.Heart}>
+          <BrainButton
+            showOnButton="The Heart"
+            info="The heart pumps blood around the body"
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.LeftVentricle}>
+          <BrainButton
+            showOnButton="The Left Ventricle"
+            info="The left ventricle takes blood from the lungs and sends it to the organs. It has very thick walls."
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.RightVentricle}>
+          <BrainButton
+            showOnButton="The Right Ventricle"
+            info="The right ventricle pumps blood to the lungs so it can get oxygen and get rid of carbon dioxide."
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.RightAtrium}>
+          <BrainButton
+            showOnButton="The Right Atrium"
+            info="Blood from the body enters the right atrium before it fills the right ventricle"
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.LeftAtrium}>
+          <BrainButton
+            showOnButton="The Left Atrium"
+            info="Blood from the lungs enters the right atrium before it fills the left ventricle"
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.Aorta}>
+          <BrainButton
+            showOnButton="The Aorta"
+            info="The aorta brings blood from the heart to the rest of the body"
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.InfVenaCava}>
+          <BrainButton
+            showOnButton="The Inferior Vena Cava"
+            info="Carries deoxygenated blood from the lower body back to the heart"
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.SupVenaCava}>
+          <BrainButton
+            showOnButton="The Superior Vena Cava"
+            info="Carries deoxygenated blood from the chest ande head back to the heart"
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.PulmonaryArtery}>
+          <BrainButton
+            showOnButton="The Pulmonary Artery"
+            info="Deoxygenated blood travels through here to get back to the lungs."
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.Tricuspid}>
+          <BrainButton
+            showOnButton="The Tricuspid Valve"
+            info="Blocks blood from flowing back into the right atrium when the right ventricle contracts"
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+        <View style={styles.Mitral}>
+          <BrainButton
+            showOnButton="The Mitral Valve"
+            info="Blocks blood from flowing back into the left atrium when the left ventricle contracts"
+            showInfoAboutArea={this.showInfoAboutArea}
+          ></BrainButton>
+        </View>
+      </View>
+    );
+  }
+}

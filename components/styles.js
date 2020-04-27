@@ -195,4 +195,86 @@ export default StyleSheet.create({
     right: 1230,
     top: 100,
   },
+  Heart: {
+    position: "absolute",
+    top: "3%",
+    
+  },
+  LeftVentricle: {
+    flex: 1,
+    position: "absolute",
+    right: "31%",
+    top: "65%",
+  },
+  RightVentricle: {
+    flex: 1,
+    position: "absolute",
+    right: "55%",
+    top: "65%",
+  },
+  RightAtrium: {
+    flex: 1,
+    position: "absolute",
+    right: "60%",
+    top: "45%",
+  },
+  LeftAtrium: {
+    flex: 1,
+    position: "absolute",
+    right: "33%",
+    top: "45%",
+  },
+  Aorta: {
+    flex: 1,
+    position: "absolute",
+    right: "50%",
+    top: "20%",
+  },
+  InfVenaCava: {
+    flex: 1,
+    position: "absolute",
+    right: "62%",
+    top: "82%",
+  },
+  SupVenaCava: {
+    flex: 1,
+    position: "absolute",
+    right: "60%",
+    top: "30%",
+  },
+  PulmonaryArtery: {
+    flex: 1,
+    position: "absolute",
+    right: "38%",
+    top: "28%",
+  },
+  Tricuspid: {
+    flex: 1,
+    position: "absolute",
+    right: "58%",
+    top: "56%",
+  },
+  Mitral: {
+    lex: 1,
+    position: "absolute",
+    right: "32%",
+    top: "53%",
+  },
+  HeartContainer: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  HeartImage: {
+    position: "relative",
+    top: "-10%",
+    width: 775,
+    height: 735,
+  },
+  message: {
+    flex: 1,
+    position: "relative",
+    
+  },
 });

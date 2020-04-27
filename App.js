@@ -36,7 +36,7 @@ export default class App extends React.Component {
           <Stack.Screen
             name="Landing Page"
             component={LandingPageFx}
-            options={{ title: "Welcome to the Brain" }}
+            options={{ title: "Welcome to the Body" }}
           />
           <Stack.Screen
             name="exterior"

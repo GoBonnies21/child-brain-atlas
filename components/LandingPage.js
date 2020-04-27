@@ -41,6 +41,9 @@ export default function LandingPageFx({ navigation }) {
           // eslint-disable-next-line react/prop-types
           onPress={() => navigation.navigate("interior")}
         ></Button>
+        <Text>
+          The heart pumps blood around the body!
+        </Text>
         <Button
           title="Go to the Heart"
           // eslint-disable-next-line react/prop-types
