@@ -160,45 +160,41 @@ export default StyleSheet.create({
   ParietalLobe: {
     flex: 1,
     position: "absolute",
-    justifyContent: "flex-end",
-    alignItems: "flex-end",
-    top: 325,
-    right: 1000,
+    top: "20%",
+    right: "22%",
   },
   FrontalLobe: {
     flex: 1,
     position: "absolute",
-    top: 350,
-    right: 1500,
+    top: "33%",
+    right: "62%",
   },
   OccipitalLobe: {
     flex: 1,
     position: "absolute",
-    right: 900,
-    top: 525,
+    right: "5%",
+    top: "51%",
   },
   TemporalLobe: {
     flex: 1,
     position: "absolute",
-    right: 1300,
-    top: 600,
+    right: "40%",
+    top: "57%",
   },
   Cerebellum: {
     flex: 1,
     position: "absolute",
-    right: 1050,
-    top: 800,
+    top: "75%",
+    right: "22%",
   },
   Brain: {
     flex: 1,
     position: "absolute",
-    right: 1230,
-    top: 100,
+    top: "5%",
   },
   Heart: {
     position: "absolute",
     top: "3%",
-    
   },
   LeftVentricle: {
     flex: 1,
@@ -275,6 +271,7 @@ export default StyleSheet.create({
   message: {
     flex: 1,
     position: "relative",
-    
+    textAlignVertical: "center",
+    textAlign: "center",
   },
 });

@@ -19,7 +19,7 @@ export default class BrainExterior extends React.Component {
       render() {
         return (
           <View style={styles.BrainExteriorContainer}>
-            <Text>{this.state.infoAboutArea}</Text>
+            <Text style={styles.message}>{this.state.infoAboutArea}</Text>
             <View style={styles.backgroundImage}>
             <ExteriorBrainImage></ExteriorBrainImage>
             </View>
