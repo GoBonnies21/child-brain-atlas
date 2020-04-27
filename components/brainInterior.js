@@ -19,8 +19,8 @@ export default class BrainInterior extends React.Component {
   render() {
     return (
       <View style={styles.BrainInteriorContainer}>
-        <Text>{this.state.infoAboutArea}</Text>
-        <View style={styles.backgroundImage}>
+        <Text style={styles.message}>{this.state.infoAboutArea}</Text>
+        <View style={styles.InnerBrainImage}>
           <InteriorBrainImage></InteriorBrainImage>
         </View>
         <View style={styles.CorpusCallosum}>

@@ -32,7 +32,7 @@ export default class App extends React.Component {
   render() {
     return (
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="exterior">
+        <Stack.Navigator initialRouteName="Landing Page">
           <Stack.Screen
             name="Landing Page"
             component={LandingPageFx}
