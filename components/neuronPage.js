@@ -19,7 +19,7 @@ export default class NeuronPage extends React.Component {
   render() {
     return (
       <View style={styles.NeuronContainer}>
-        <Text>{this.state.infoAboutArea}</Text>
+        <Text style={styles.message}>{this.state.infoAboutArea}</Text>
         <View style={styles.backgroundImage}>
           <NeuronImage></NeuronImage>
         </View>
