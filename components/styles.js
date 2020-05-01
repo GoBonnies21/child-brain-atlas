@@ -206,13 +206,15 @@ export default StyleSheet.create({
     right: "50%",
   },
   Heart: {
+    flex: 1,
     position: "absolute",
-    top: "3%",
+    right: "15%",
+    top: "20%",
   },
   LeftVentricle: {
     flex: 1,
     position: "absolute",
-    right: "31%",
+    right: "13%",
     top: "65%",
   },
   RightVentricle: {
@@ -230,7 +232,7 @@ export default StyleSheet.create({
   LeftAtrium: {
     flex: 1,
     position: "absolute",
-    right: "33%",
+    right: "15%",
     top: "45%",
   },
   Aorta: {
@@ -254,8 +256,8 @@ export default StyleSheet.create({
   PulmonaryArtery: {
     flex: 1,
     position: "absolute",
-    right: "38%",
-    top: "28%",
+    right: "15%",
+    top: "33%",
   },
   Tricuspid: {
     flex: 1,
@@ -266,7 +268,7 @@ export default StyleSheet.create({
   Mitral: {
     flex: 1,
     position: "absolute",
-    right: "32%",
+    right: "15%",
     top: "53%",
   },
   HeartContainer: {
@@ -274,12 +276,18 @@ export default StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+    height: "80%",
   },
   HeartImage: {
     position: "relative",
-    top: "-10%",
-    width: 775,
-    height: 735,
+    width: "100%",
+    height: "70%",
+  },
+  HeartImageContainer: {
+    position: "relative",
+    justifyContent: "center",
+    width: "90%",
+    height: "100%",
   },
   message: {
     flex: 1,
