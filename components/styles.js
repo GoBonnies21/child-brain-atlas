@@ -171,14 +171,14 @@ export default StyleSheet.create({
   ParietalLobe: {
     flex: 1,
     position: "absolute",
-    top: "20%",
-    right: "22%",
+    top: "35%",
+    right: "14%",
   },
   FrontalLobe: {
     flex: 1,
     position: "absolute",
-    top: "33%",
-    right: "62%",
+    top: "43%",
+    right: "68%",
   },
   OccipitalLobe: {
     flex: 1,
@@ -195,15 +195,14 @@ export default StyleSheet.create({
   Cerebellum: {
     flex: 1,
     position: "absolute",
-    top: "80%",
-    right: "22%",
+    top: "65%",
+    right: "18%",
   },
   Brain: {
     flex: 1,
     position: "absolute",
-    justifyContent: "center",
-    top: "-5%",
-    right: "50%",
+    right: "40%",
+    top: "20%",
   },
   Heart: {
     flex: 1,
