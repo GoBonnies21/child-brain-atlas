@@ -20,9 +20,7 @@ export default class Heart extends React.Component {
   render() {
     return (
       <View style={styles.HeartContainer}>
-        <View style={styles.message}>
-          <Text>{this.state.infoAboutArea}</Text>
-        </View>
+        <Text style={styles.message}>{this.state.infoAboutArea}</Text>
         <View style={styles.HeartImageContainer}>
           <Image source={HeartImageFile} style={styles.HeartImage} />
           <View style={styles.Heart}>
