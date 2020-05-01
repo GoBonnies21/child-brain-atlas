@@ -7,13 +7,12 @@ export default StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  LandingImage: {
-    flex: 1,
-    justifyContent: "flex-end",
-    alignItems: "center",
-  },
   LandingContainer: {
-    backgroundColor: "white",
+    position: "relative",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "100%",
+    height: "100%",
   },
   NeuronContainer: {
     flex: 1,
@@ -86,8 +85,10 @@ export default StyleSheet.create({
     justifyContent: "center",
   },
   LandingPageImage: {
-    width: 675,
-    height: 475,
+    position: "relative",
+    width: "50%",
+    height: "20%",
+    justifyContent: "center",
   },
   InnerBrainImage: {
     width: "100%",
@@ -295,5 +296,10 @@ export default StyleSheet.create({
     textAlignVertical: "center",
     textAlign: "center",
     top: "10%",
+  },
+  CenterText: {
+    alignContent: "center",
+    textAlignVertical: "center",
+    textAlign: "center",
   },
 });
