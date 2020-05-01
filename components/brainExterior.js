@@ -1,7 +1,7 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, View, Image } from "react-native";
 import BrainButton from "./button";
-import ExteriorBrainImage from "./OuterBrainImage";
+import BrainExteriorFile from "../assets/BrainExterior.jpg";
 import styles from "./styles";
 export default class BrainExterior extends React.Component {
   constructor() {
@@ -21,8 +21,7 @@ export default class BrainExterior extends React.Component {
       <View style={styles.BrainExteriorContainer}>
         <Text style={styles.message}>{this.state.infoAboutArea}</Text>
         <View style={styles.backgroundImage}>
-          <ExteriorBrainImage></ExteriorBrainImage>
-
+          <Image source={BrainExteriorFile} style={styles.OuterBrainImage} />
           <View style={styles.Brain}>
             <BrainButton
               showOnButton="The Brain"

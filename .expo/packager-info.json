@@ -1,10 +1,10 @@
 {
-  "webpackServerPort": null,
+  "webpackServerPort": 19006,
   "expoServerPort": 19000,
   "expoServerNgrokUrl": "https://x2-hui.anonymous.child-brain-atlas.exp.direct",
   "packagerNgrokUrl": "https://packager.x2-hui.anonymous.child-brain-atlas.exp.direct",
-  "ngrokPid": 99788,
+  "ngrokPid": 1682,
   "devToolsPort": 19002,
   "packagerPort": 19005,
-  "packagerPid": 99765
+  "packagerPid": 1652
 }

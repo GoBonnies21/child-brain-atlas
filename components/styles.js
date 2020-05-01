@@ -23,8 +23,9 @@ export default StyleSheet.create({
   },
   backgroundImage: {
     position: "relative",
-    width: 775,
-    height: 735,
+    justifyContent: "center",
+    width: "100%",
+    height: "100%",
   },
   CellBody: {
     flex: 1,
@@ -75,8 +76,9 @@ export default StyleSheet.create({
     top: "67%",
   },
   OuterBrainImage: {
-    width: 900,
-    height: 725,
+    width: "100%",
+    height: "50%",
+    justifyContent: "center",
   },
   NeuronImage: {
     width: 775,
@@ -155,6 +157,7 @@ export default StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+    height: "80%",
   },
   ParietalLobe: {
     flex: 1,
@@ -271,8 +274,10 @@ export default StyleSheet.create({
   },
   message: {
     flex: 1,
-    position: "relative",
+    position: "absolute",
+    alignContent: "center",
     textAlignVertical: "center",
     textAlign: "center",
+    top: "10%",
   },
 });
