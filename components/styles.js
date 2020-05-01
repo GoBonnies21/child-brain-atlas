@@ -8,7 +8,7 @@ export default StyleSheet.create({
     justifyContent: "center",
   },
   LandingImage: {
-    flex: "center",
+    flex: 1,
     justifyContent: "flex-end",
     alignItems: "center",
   },
@@ -252,7 +252,7 @@ export default StyleSheet.create({
     top: "56%",
   },
   Mitral: {
-    lex: 1,
+    flex: 1,
     position: "absolute",
     right: "32%",
     top: "53%",

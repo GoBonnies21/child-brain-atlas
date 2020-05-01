@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Image } from "react-native";
 import styles from "./styles";
+import BrainExteriorFile from "../assets/BrainExterior.jpg"
 
 export default class OuterBrainImage extends React.Component {
   constructor() {
@@ -10,7 +11,7 @@ export default class OuterBrainImage extends React.Component {
     return (
       <View>
         <Image
-          source={require("../assets/BrainExterior.jpg")}
+          source={BrainExteriorFile}
           style={styles.OuterBrainImage}
         />
       </View>

@@ -1,7 +1,8 @@
 import React from "react";
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, Image } from "react-native";
 import BrainButton from "./button";
-import HeartImage from "./HeartImage";
+// import HeartImage from "./HeartImage";
+import HeartImageFile from "../assets/HeartImage.jpeg"
 import styles from "./styles";
 export default class Heart extends React.Component {
   constructor() {
@@ -22,7 +23,11 @@ export default class Heart extends React.Component {
         <View style={styles.message}>
           <Text>{this.state.infoAboutArea}</Text>
         </View>
-        <HeartImage></HeartImage>
+        <Image
+          // source={require("../assets/HeartImage.jpeg")}
+          source={HeartImageFile}
+          style={styles.HeartImage}
+        />
         <View style={styles.Heart}>
           <BrainButton
             showOnButton="The Heart"

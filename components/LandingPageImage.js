@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Image } from "react-native";
 import styles from "./styles";
+import LandingPagePicture from "../assets/LandingPageBrain.jpg"
 
 export default class LandingImage extends React.Component {
   constructor() {
@@ -10,7 +11,7 @@ export default class LandingImage extends React.Component {
     return (
       <View>
         <Image
-          source={require("../assets/LandingPageBrain.jpg")}
+          source={LandingPagePicture}
           style={styles.LandingPageImage}
         />
       </View>
