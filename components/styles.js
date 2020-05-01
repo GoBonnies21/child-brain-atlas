@@ -54,14 +54,14 @@ export default StyleSheet.create({
   MyelinSheath: {
     flex: 1,
     position: "absolute",
-    right: "48%",
-    top: "67%",
+    right: "18%",
+    top: "54%",
   },
   Synapse: {
     flex: 1,
     position: "absolute",
     right: "10%",
-    top: "67%",
+    top: "80%",
   },
   SchwannCell: {
     flex: 1,
@@ -72,7 +72,7 @@ export default StyleSheet.create({
   AxonHillock: {
     flex: 1,
     position: "absolute",
-    right: "26%",
+    right: "16%",
     top: "67%",
   },
   OuterBrainImage: {
@@ -81,8 +81,9 @@ export default StyleSheet.create({
     justifyContent: "center",
   },
   NeuronImage: {
-    width: 775,
-    height: 735,
+    width: "100%",
+    height: "60%",
+    justifyContent: "center",
   },
   LandingPageImage: {
     width: 675,
