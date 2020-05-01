@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, StyleSheet, Image } from "react-native";
+import { Text, View, Image } from "react-native";
 import BrainButton from "./button";
 // import HeartImage from "./HeartImage";
 import HeartImageFile from "../assets/HeartImage.jpeg";
