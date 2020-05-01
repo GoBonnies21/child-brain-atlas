@@ -89,8 +89,15 @@ export default StyleSheet.create({
     height: 475,
   },
   InnerBrainImage: {
-    width: 775,
-    height: 775,
+    width: "100%",
+    height: "50%",
+    justifyContent: "center",
+  },
+  InnerBrainImageContainer: {
+    position: "relative",
+    justifyContent: "center",
+    width: "100%",
+    height: "100%",
   },
   ButtonContainer: {
     flex: 1,
@@ -103,12 +110,13 @@ export default StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+    height: "80%",
   },
   CorpusCallosum: {
     flex: 1,
     position: "absolute",
-    right: "38%",
-    top: "34%",
+    right: "6%",
+    top: "44%",
   },
   Thalamus: {
     flex: 1,
@@ -131,26 +139,26 @@ export default StyleSheet.create({
   Medulla: {
     flex: 1,
     position: "absolute",
-    right: "54%",
-    top: "80%",
+    right: "50%",
+    top: "65%",
   },
   PituitaryGland: {
     flex: 1,
     position: "absolute",
-    right: "32%",
-    top: "62%",
+    right: "12%",
+    top: "60%",
   },
   BrainStem: {
     flex: 1,
     position: "absolute",
     right: "48%",
-    top: "62%",
+    top: "70%",
   },
   SpinalCord: {
     flex: 1,
     position: "absolute",
     right: "58%",
-    top: "90%",
+    top: "75%",
   },
   BrainExteriorContainer: {
     flex: 1,

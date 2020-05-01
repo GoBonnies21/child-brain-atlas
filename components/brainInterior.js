@@ -1,7 +1,7 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, View, Image } from "react-native";
 import BrainButton from "./button";
-import InteriorBrainImage from "./InnerBrainImage";
+import InnerBrainImageFile from "../assets/InnerBrainBW.png";
 import styles from "./styles";
 export default class BrainInterior extends React.Component {
   constructor() {
@@ -20,8 +20,8 @@ export default class BrainInterior extends React.Component {
     return (
       <View style={styles.BrainInteriorContainer}>
         <Text style={styles.message}>{this.state.infoAboutArea}</Text>
-        <View style={styles.InnerBrainImage}>
-          <InteriorBrainImage></InteriorBrainImage>
+        <View style={styles.InnerBrainImageContainer}>
+          <Image source={InnerBrainImageFile} style={styles.InnerBrainImage} />
 
           <View style={styles.CorpusCallosum}>
             <BrainButton
