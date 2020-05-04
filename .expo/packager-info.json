@@ -3,8 +3,8 @@
   "expoServerPort": 19000,
   "expoServerNgrokUrl": "https://x2-hui.anonymous.child-brain-atlas.exp.direct",
   "packagerNgrokUrl": "https://packager.x2-hui.anonymous.child-brain-atlas.exp.direct",
-  "ngrokPid": 59154,
+  "ngrokPid": 1682,
   "devToolsPort": 19002,
-  "packagerPort": 19003,
-  "packagerPid": 59144
+  "packagerPort": 19005,
+  "packagerPid": 1652
 }
