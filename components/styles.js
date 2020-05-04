@@ -76,7 +76,7 @@ export default StyleSheet.create({
   },
   OuterBrainImage: {
     width: "100%",
-    height: "50%",
+    height: "40%",
     justifyContent: "center",
   },
   NeuronImage: {
@@ -172,19 +172,19 @@ export default StyleSheet.create({
   ParietalLobe: {
     flex: 1,
     position: "absolute",
-    top: "35%",
+    top: "40%",
     right: "14%",
   },
   FrontalLobe: {
     flex: 1,
     position: "absolute",
     top: "43%",
-    right: "68%",
+    right: "66%",
   },
   OccipitalLobe: {
     flex: 1,
     position: "absolute",
-    right: "5%",
+    right: "0%",
     top: "51%",
   },
   TemporalLobe: {
