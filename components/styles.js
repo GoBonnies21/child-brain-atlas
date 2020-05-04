@@ -129,8 +129,8 @@ export default StyleSheet.create({
   Hypothalamus: {
     flex: 1,
     position: "absolute",
-    right: "34%",
-    top: "55%",
+    right: "2%",
+    top: "50%",
   },
   Amygdala: {
     flex: 1,

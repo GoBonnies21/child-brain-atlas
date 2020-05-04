@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Image } from "react-native";
 import BrainButton from "./button";
-import InnerBrainImageFile from "../assets/InnerBrainBW.png";
+import InnerBrainImageFile from "../assets/ColoredInnerBrain.png";
 import styles from "./styles";
 export default class BrainInterior extends React.Component {
   constructor() {
