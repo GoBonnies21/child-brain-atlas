@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, Image } from "react-native";
-import BrainButton from "./button";
+import InfoButton from "./button";
 // import HeartImage from "./HeartImage";
 import HeartImageFile from "../assets/HeartImage.jpeg";
 import styles from "./styles";
@@ -24,81 +24,81 @@ export default class Heart extends React.Component {
         <View style={styles.HeartImageContainer}>
           <Image source={HeartImageFile} style={styles.HeartImage} />
           <View style={styles.Heart}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Heart"
               info="The heart pumps blood around the body"
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.LeftVentricle}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Left Ventricle"
               info="The left ventricle takes blood from the lungs and sends it to the organs. It has very thick walls."
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.RightVentricle}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Right Ventricle"
               info="The right ventricle pumps blood to the lungs so it can get oxygen and get rid of carbon dioxide."
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.RightAtrium}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Right Atrium"
               info="Blood from the body enters the right atrium before it fills the right ventricle"
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.LeftAtrium}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Left Atrium"
               info="Blood from the lungs enters the right atrium before it fills the left ventricle"
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.Aorta}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Aorta"
               info="The aorta brings blood from the heart to the rest of the body"
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.InfVenaCava}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Inferior Vena Cava"
               info="Carries deoxygenated blood from the lower body back to the heart"
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.SupVenaCava}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Superior Vena Cava"
               info="Carries deoxygenated blood from the chest ande head back to the heart"
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.PulmonaryArtery}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Pulmonary Artery"
               info="Deoxygenated blood travels through here to get back to the lungs."
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.Tricuspid}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Tricuspid Valve"
               info="Blocks blood from flowing back into the right atrium when the right ventricle contracts"
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
           <View style={styles.Mitral}>
-            <BrainButton
+            <InfoButton
               showOnButton="The Mitral Valve"
               info="Blocks blood from flowing back into the left atrium when the left ventricle contracts"
               showInfoAboutArea={this.showInfoAboutArea}
-            ></BrainButton>
+            ></InfoButton>
           </View>
         </View>
       </View>
