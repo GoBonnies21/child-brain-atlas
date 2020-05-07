@@ -8,4 +8,4 @@ Currently, the app consists of a main screen, and four main parts- the interior 
 
 
 <h2>The welcome page</h2>
-<img src="./UseExamples/NavigationScreenshot.png" height=20>
+<img src="./UseExamples/NavigationScreenshot.png" height=200>
