@@ -15,8 +15,6 @@ Currently, the app consists of a main screen, and four main parts- the interior 
 <img src="./UseExamples/BrainInteriorScreenshot.png" height=500>
 <h2>The Neuron</h2>
 <img src="./UseExamples/NeuronScreenshot1.png" height=500>
-<h2>The Neuron</h2>
-<img src="./UseExamples/NeuronScreenshot1.png" height=500>
 <h2>The Heart</h2>
 <img src="./UseExamples/HeartScreenshot.png" height=500>
 
