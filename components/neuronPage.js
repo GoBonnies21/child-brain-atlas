@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Image } from "react-native";
 import InfoButton from "./button";
-import NeuronImageFile from "../assets/ColoredNeuron.png"
+import NeuronImageFile from "../assets/ColoredNeuron.png";
 import styles from "./styles";
 export default class NeuronPage extends React.Component {
   constructor() {
@@ -21,10 +21,7 @@ export default class NeuronPage extends React.Component {
       <View style={styles.NeuronContainer}>
         <Text style={styles.message}>{this.state.infoAboutArea}</Text>
         <View style={styles.backgroundImage}>
-        <Image
-          source={NeuronImageFile}
-          style={styles.NeuronImage}
-        />
+          <Image source={NeuronImageFile} style={styles.NeuronImage} />
 
           <View style={styles.CellBody}>
             <InfoButton
