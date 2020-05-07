@@ -21,11 +21,12 @@ Currently, the app consists of a main screen, and four main parts- the interior 
 <img src="./UseExamples/HeartScreenshot.png" height=500>
 
 <h1>File Structure</h1>
-        .
-        ├── assets                  # Images used in-app
-        ├── components              # JS functionality
-        ├── UseExamples             # Screenshots and Screenrecords for presentation
-        ├── Views                   # Screens presented to the user
-        ├── App.js                  # File presented to engine
-        ├── app.json                # File presented to expo
-        └── README.md
+<pre><code>.
+├── assets                  # Images used in-app
+├── components              # JS functionality
+├── UseExamples             # Screenshots and Screenrecords for presentation
+├── Views                   # Screens presented to the user
+├── App.js                  # File presented to engine
+├── app.json                # File presented to expo
+└── README.md
+</code></pre>
