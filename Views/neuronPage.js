@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, Image } from "react-native";
-import InfoButton from "../components/button";
+import InfoButton from "../components/infoButton";
 import NeuronImageFile from "../assets/neuronPageColored.png";
 import styles from "../components/styles";
 export default class NeuronPage extends React.Component {

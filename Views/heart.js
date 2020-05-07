@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, Image } from "react-native";
-import InfoButton from "../components/button";
+import InfoButton from "../components/infoButton";
 import HeartImageFile from "../assets/heartImage.jpeg";
 import styles from "../components/styles";
 export default class Heart extends React.Component {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, Image } from "react-native";
-import InfoButton from "../components/button";
+import InfoButton from "../components/infoButton";
 import BrainExteriorFile from "../assets/brainExteriorColored.png";
 import styles from "../components/styles";
 export default class BrainExterior extends React.Component {
