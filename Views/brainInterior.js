@@ -9,13 +9,12 @@ export default class BrainInterior extends React.Component {
     this.state = {
       infoAboutArea: [],
     };
-    this.showInfoAboutArea = this.showInfoAboutArea.bind(this);
   }
-  showInfoAboutArea(info) {
+  showInfoAboutArea = (info) => {
     this.setState({
       infoAboutArea: [info],
     });
-  }
+  };
   render() {
     return (
       <View style={styles.BrainInteriorContainer}>

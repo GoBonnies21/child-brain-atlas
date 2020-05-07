@@ -7,21 +7,21 @@ import BrainExterior from "../Views/brainExterior";
 import BrainInterior from "../Views/brainInterior";
 import LandingPageFx from "../Views/LandingPage";
 import NeuronPage from "../Views/neuronPage";
-import Heart from "../Views/heart";
+import Heart from "../Views/heartInterior";
 
 function brainExteriorFx() {
-  return <BrainExterior></BrainExterior>;
+  return <BrainExterior/>;
 }
 function heartFx(){
-  return <Heart></Heart>;
+  return <Heart/>;
 }
 
 function brainInteriorFx() {
-  return <BrainInterior></BrainInterior>;
+  return <BrainInterior/>;
 }
 
 function theNeuronFx() {
-  return <NeuronPage></NeuronPage>;
+  return <NeuronPage/>;
 }
 
 const Stack = createStackNavigator();

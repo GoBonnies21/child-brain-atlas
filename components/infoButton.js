@@ -6,9 +6,8 @@ import styles from "./styles";
 export default class InfoButton extends React.Component {
     constructor(props){
         super(props);
-        this.showInfoHandler= this.showInfoHandler.bind(this);
     }
-    showInfoHandler(){
+    showInfoHandler = () =>{
         this.props.showInfoAboutArea(this.props.info);
     }
     render(){
