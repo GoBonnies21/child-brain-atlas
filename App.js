@@ -3,11 +3,11 @@ import "react-native-gesture-handler";
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import BrainExterior from "./components/brainExterior";
-import BrainInterior from "./components/brainInterior";
-import LandingPageFx from "./components/LandingPage";
-import NeuronPage from "./components/neuronPage";
-import Heart from "./components/heart";
+import BrainExterior from "./Views/brainExterior";
+import BrainInterior from "./Views/brainInterior";
+import LandingPageFx from "./Views/LandingPage";
+import NeuronPage from "./Views/neuronPage";
+import Heart from "./Views/heart";
 
 function brainExteriorFx() {
   return <BrainExterior></BrainExterior>;

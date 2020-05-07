@@ -1,9 +1,8 @@
 import React from "react";
 import { Text, View, Image } from "react-native";
-import InfoButton from "./button";
-// import HeartImage from "./HeartImage";
-import HeartImageFile from "../assets/HeartImage.jpeg";
-import styles from "./styles";
+import InfoButton from "../components/button";
+import HeartImageFile from "../assets/heartImage.jpeg";
+import styles from "../components/styles";
 export default class Heart extends React.Component {
   constructor() {
     super();

@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, Button, Image } from "react-native";
 import LandingPagePicture from "../assets/LandingPageBrain.jpg";
-import styles from "./styles";
+import styles from "../components/styles";
 // eslint-disable-next-line react/prop-types
 export default function LandingPageFx({ navigation }) {
   return (
